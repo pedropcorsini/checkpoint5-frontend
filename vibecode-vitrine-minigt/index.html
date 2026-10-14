@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vitrine 1:64, Mini GT</title>
+  <meta name="description" content="Uma vitrine de nove miniaturas Mini GT em escala 1:64 e um pouco da história da marca. Trabalho acadêmico, não é loja.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Caveat:wght@500;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topo">
+  <a class="topo__marca" href="#inicio">Vitrine 1:64</a>
+  <nav class="topo__nav" aria-label="Seções">
+    <a href="#estante">Estante</a>
+    <a href="#marca">A marca</a>
+    <a href="#embalagem">Ler a embalagem</a>
+  </nav>
+</header>
+
+<main id="inicio">
+
+  <section class="hero">
+    <div class="hero__texto">
+      <p class="etiqueta-mono rv">Coleção de estudo, nº 001</p>
+      <h1 class="rv">Cabe na palma da mão. <span>Mas é um carro inteiro.</span></h1>
+      <p class="hero__lead rv">Em escala 1:64, um Lotus de Fórmula 1 tem o tamanho de um dedo. Aqui estão nove Mini GT numa estante de colecionador. Ninguém compra nada: é só para olhar de perto.</p>
+      <p class="nota-mao rv">(trabalho de faculdade, não é loja)</p>
+      <a class="botao" href="#estante">Ver a estante</a>
+    </div>
+    <figure class="hero__foto pv">
+      <span class="fita" aria-hidden="true"></span>
+      <img src="img/carros/lotus-99t-senna-1987.jpg" alt="Miniatura amarela do Lotus 99T de Fórmula 1, com o piloto no cockpit" width="1600" height="960">
+      <figcaption>Lotus 99T #12, Mônaco 1987</figcaption>
+    </figure>
+  </section>
+
+  <section class="estante" id="estante" aria-labelledby="t-estante">
+   <div class="conteudo">
+    <h2 id="t-estante" class="titulo-secao rv">A estante</h2>
+    <p class="intro-secao rv">Clique num carrinho para abrir a ficha dele.</p>
+
+    <div class="prateleira">
+      <h3 class="placa rv" id="pista">Pista e Senna</h3>
+      <ul class="fileira">
+        <li class="pv">
+          <button class="carro" type="button"
+            data-nome="Toleman TG184 #19" data-detalhe="Ayrton Senna, GP de Mônaco 1984"
+            data-ref="1118" data-serie="Senna Collection"
+            data-nota="Segundo lugar na chuva de Mônaco. O bonequinho do piloto está com o braço levantado."
+            data-img="img/carros/toleman-tg184-senna-1984.jpg">
+            <span class="foto"><img src="img/carros/toleman-tg184-senna-1984.jpg" alt="Miniatura do Toleman TG184 branco e azul, com o piloto de capacete amarelo" width="1600" height="960" loading="lazy"></span>
+            <span class="rotulo"><b>1118</b><span>Toleman TG184<small>Senna, Mônaco 1984</small></span></span>
+          </button>
+        </li>
+        <li class="pv">
+          <button class="carro" type="button"
+            data-nome="Lotus 99T #12" data-detalhe="Ayrton Senna, GP de Mônaco 1987"
+            data-ref="1088" data-serie="Senna Collection"
+            data-nota="Vitória em Mônaco em 1987. Amarelo e preto, com a Honda no motor."
+            data-img="img/carros/lotus-99t-senna-1987.jpg">
+            <span class="foto"><img src="img/carros/lotus-99t-senna-1987.jpg" alt="Miniatura amarela do Lotus 99T de Fórmula 1" width="1600" height="960" loading="lazy"></span>
+            <span class="rotulo"><b>1088</b><span>Lotus 99T<small>Senna, Mônaco 1987</small></span></span>
+          </button>
+        </li>
+        <li class="pv">
+          <button class="carro" type="button"
+            data-nome="BMW M3 Larry Chen 7Eleven" data-detalhe="Kaido House, M3 E30 de corrida"
+            data-ref="KHMG217" data-serie="Kaido House"
+            data-nota="Pintura verde, branca e laranja da 7-Eleven. O capô abre e mostra o motor."
+            data-img="img/carros/bmw-m3-7eleven.jpg">
+            <span class="foto"><img src="img/carros/bmw-m3-7eleven.jpg" alt="Miniatura de BMW M3 branco e verde com o número 29 e faixas laranja" width="1600" height="800" loading="lazy"></span>
+            <span class="rotulo"><b>217</b><span>BMW M3 7Eleven<small>Kaido House</small></span></span>
+          </button>
+        </li>
+      </ul>
+      <div class="tabua" aria-hidden="true"></div>
+    </div>
+
+    <div class="prateleira">
+      <h3 class="placa rv" id="kaido">Garagem Kaido House</h3>
+      <ul class="fileira">
+        <li class="pv">
+          <button class="carro" type="button"
+            data-nome="Nissan Skyline GT-R (R33) ADVAN" data-detalhe="Kaido House, versão V1"
+            data-ref="KHMG191" data-serie="Kaido House"
+            data-nota="Preto e vermelho, número 33. O capô abre e mostra o motor."
+            data-img="img/carros/skyline-r33-advan.jpg">
+            <span class="foto"><img src="img/carros/skyline-r33-advan.jpg" alt="Miniatura de Nissan Skyline R33 preto e vermelho com o número 33 e a palavra Advan" width="1600" height="533" loading="lazy"></span>
+            <span class="rotulo"><b>191</b><span>Skyline R33 ADVAN<small>Kaido House</small></span></span>
+          </button>
+        </li>
+        <li class="pv">
+          <button class="carro" type="button"
+            data-nome="Honda NSX Kaido Test Car" data-detalhe="Kaido House, versão V1"
+            data-ref="KHMG190" data-serie="Kaido House"
+            data-nota="Faróis escamoteáveis que sobem. O vidro traseiro e a tampa do motor também levantam."
+            data-img="img/carros/honda-nsx-kaido.jpg">
+            <span class="foto"><img src="img/carros/honda-nsx-kaido.jpg" alt="Miniatura de Honda NSX cinza com fibra de carbono, número 9 e rodas azuis" width="1600" height="533" loading="lazy"></span>
+            <span class="rotulo"><b>190</b><span>Honda NSX<small>Kaido House</small></span></span>
+          </button>
+        </li>
+        <li class="pv">
+          <button class="carro" type="button"
+            data-nome="Nissan Silvia S13-R Kaido Drift" data-detalhe="Kaido House, versão V1"
+            data-ref="KHMG235" data-serie="Kaido House"
+            data-nota="Cinza com grafismos roxos e dourados, aerofólio enorme e rodas cor de bronze."
+            data-img="img/carros/silvia-s13r-kaido-drift.jpg">
+            <span class="foto"><img src="img/carros/silvia-s13r-kaido-drift.jpg" alt="Miniatura de Nissan Silvia S13 cinza com grafismos roxos e dourados" width="1600" height="533" loading="lazy"></span>
+            <span class="rotulo"><b>235</b><span>Silvia S13-R Drift<small>Kaido House</small></span></span>
+          </button>
+        </li>
+      </ul>
+      <div class="tabua" aria-hidden="true"></div>
+    </div>
+
+    <div class="prateleira">
+      <h3 class="placa rv" id="diferentoes">Os diferentões</h3>
+      <ul class="fileira">
+        <li class="pv">
+          <button class="carro" type="button"
+            data-nome="Honda Civic EF Kaido Manga" data-detalhe="Kaido House, versão V1"
+            data-ref="KHMG260" data-serie="Kaido House"
+            data-nota="Uma perua cinza toda riscada, como se fosse um quadrinho. O capô abre."
+            data-img="img/carros/civic-ef-kaido-manga.jpg">
+            <span class="foto"><img src="img/carros/civic-ef-kaido-manga.jpg" alt="Miniatura de Honda Civic EF cinza com grafismos pretos e brancos estilo mangá" width="1600" height="533" loading="lazy"></span>
+            <span class="rotulo"><b>260</b><span>Civic EF Manga<small>Kaido House</small></span></span>
+          </button>
+        </li>
+        <li class="pv">
+          <button class="carro" type="button"
+            data-nome="Nissan Fairlady Z Kaido GT Police" data-detalhe="Kaido House, Fairlady Z S30"
+            data-ref="KHMG208" data-serie="Kaido House"
+            data-nota="Viatura branca e preta. O capô abre e mostra um motor L28 detalhado."
+            data-img="img/carros/fairlady-z-police.jpg">
+            <span class="foto"><img src="img/carros/fairlady-z-police.jpg" alt="Miniatura de Nissan Fairlady Z branca e preta com a palavra Police" width="1600" height="711" loading="lazy"></span>
+            <span class="rotulo"><b>208</b><span>Fairlady Z Police<small>Kaido House</small></span></span>
+          </button>
+        </li>
+        <li class="pv">
+          <button class="carro" type="button"
+            data-nome="Lamborghini Aventador LB★WORKS" data-detalhe="Edição limitada, Matte Black"
+            data-ref="1087" data-serie="Liberty Walk (LB★WORKS)"
+            data-nota="Preto fosco com rodas douradas e um aerofólio de três lâminas."
+            data-img="img/carros/lamborghini-aventador-lbworks.jpg">
+            <span class="foto"><img src="img/carros/lamborghini-aventador-lbworks.jpg" alt="Miniatura de Lamborghini Aventador preta fosca com rodas douradas e aerofólio grande" width="1600" height="960" loading="lazy"></span>
+            <span class="rotulo"><b>1087</b><span>Aventador LB★WORKS<small>Matte Black</small></span></span>
+          </button>
+        </li>
+      </ul>
+      <div class="tabua" aria-hidden="true"></div>
+    </div>
+   </div>
+  </section>
+
+  <section class="marca" id="marca" aria-labelledby="t-marca">
+    <div class="caderno rv">
+      <h2 id="t-marca" class="titulo-secao titulo-secao--caderno">De ferramentas a carrinhos</h2>
+      <ol class="linha">
+        <li class="rv"><time>2006</time><p>O taiwanês Glen Chou funda a TrueScale Miniatures (TSM), com sede em Hong Kong.</p></li>
+        <li class="rv"><time>2007</time><p>Sai o primeiro produto: réplicas em miniatura de ferramentas Snap-on, as "Garage Essentials".</p></li>
+        <li class="rv"><time>2008</time><p>A TSM entra no mundo dos carros em diecast com um Porsche 935 K3 em 1:18, o da Apple Computer em Le Mans 1980.</p></li>
+        <li class="rv"><time>2017</time><p>Nasce a Mini GT, a linha 1:64. Os primeiros modelos: Honda Civic Type R FK8, Nissan GT-R R35 e Lamborghini Huracán.</p></li>
+        <li class="rv"><time>Hoje</time><p>Linha principal, Motorsport, colaborações (Kaido House, Liberty Walk, Pandem, Rocket Bunny) e a Senna Collection. Corpo de metal, rodas de borracha e licenças oficiais desde o começo.</p></li>
+      </ol>
+      <p class="rodape-caderno">Cuidado de pesquisa: a Wikipedia data a fundação da TSM em 2006, mas o site da própria empresa fala em 2007. Fontes: <a href="https://en.wikipedia.org/wiki/TrueScale_Miniatures">Wikipedia</a> e <a href="https://www.1-64specialist.com/en/pages/storia-e-caretteristiche-dei-modellini-mini-gt-in-scala-1-64">1-64 Specialist</a>.</p>
+    </div>
+  </section>
+
+  <section class="embalagem" id="embalagem" aria-labelledby="t-emb">
+   <div class="conteudo">
+    <h2 id="t-emb" class="titulo-secao rv">Como ler uma embalagem</h2>
+    <p class="intro-secao rv">Cada cartela conta quase tudo sobre o carrinho antes de você abrir.</p>
+    <div class="emb">
+      <div class="cartela pv" role="img" aria-label="Esquema de uma cartela Mini GT com cinco partes numeradas">
+        <div class="cartela__logo"><i>1</i></div>
+        <div class="cartela__janela"><i>2</i></div>
+        <div class="cartela__ficha"><i>3</i></div>
+        <div class="cartela__ref"><i>4</i><span>▶ 1088</span></div>
+        <div class="cartela__idade"><i>5</i><span>14+</span></div>
+      </div>
+      <ol class="legenda">
+        <li class="rv"><b>Logo da marca.</b> A cartela azul com o logo é a assinatura da linha principal.</li>
+        <li class="rv"><b>Janela.</b> O carrinho fica preso à vista, sem precisar abrir.</li>
+        <li class="rv"><b>Ficha.</b> Modelo, ano e, nas edições especiais, o piloto ou o preparador.</li>
+        <li class="rv"><b>Número de referência.</b> É o que cada colecionador usa para achar o modelo certo.</li>
+        <li class="rv"><b>Idade.</b> Miniatura de coleção: indicada para maiores de 14 anos.</li>
+      </ol>
+    </div>
+   </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="rodape__barra rv">
+    <p>Gostou do trabalho? Vamos conversar sobre front-end.</p>
+    <a class="rodape__cta" href="https://www.linkedin.com/in/pedropassoscorsini/" target="_blank" rel="noopener noreferrer">Falar no LinkedIn</a>
+  </div>
+
+  <div class="rodape__corpo">
+    <div class="rodape__topo">
+      <p class="rodape__titulo rv">Vitrine 1:64</p>
+      <a class="rodape__rede" href="https://www.linkedin.com/in/pedropassoscorsini/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Pedro Passos Corsini">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11.5H3V9.75Zm6.5 0h3.83v1.57h.06c.53-1 1.84-2.07 3.78-2.07 4.04 0 4.78 2.66 4.78 6.1v5.9h-4v-5.23c0-1.25-.02-2.86-1.74-2.86-1.75 0-2.01 1.36-2.01 2.77v5.32h-4V9.75Z"/></svg>
+      </a>
+    </div>
+
+    <nav class="rodape__colunas" aria-label="Rodapé">
+      <div>
+        <h2>Estante</h2>
+        <ul>
+          <li><a href="#pista">Pista e Senna</a></li>
+          <li><a href="#kaido">Garagem Kaido House</a></li>
+          <li><a href="#diferentoes">Os diferentões</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>A marca</h2>
+        <ul>
+          <li><a href="#marca">Linha do tempo</a></li>
+          <li><a href="#embalagem">Ler a embalagem</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/TrueScale_Miniatures" target="_blank" rel="noopener noreferrer">Fonte: Wikipedia</a></li>
+          <li><a href="https://www.1-64specialist.com/en/pages/storia-e-caretteristiche-dei-modellini-mini-gt-in-scala-1-64" target="_blank" rel="noopener noreferrer">Fonte: 1-64 Specialist</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>O trabalho</h2>
+        <ul>
+          <li>Fins estudantis</li>
+          <li>Matéria: Front-end</li>
+          <li>Atividade: CP5, vibecode</li>
+          <li>HTML, CSS e JS puros</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Créditos</h2>
+        <ul>
+          <li><a href="https://mgminis.com" target="_blank" rel="noopener noreferrer">Fotos: mgminis.com</a></li>
+          <li>Autor: Pedro Passos Corsini</li>
+          <li><a href="https://www.linkedin.com/in/pedropassoscorsini/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <p class="rodape__aviso rv">© 2026 Trabalho acadêmico, sem fins comerciais. Estudante Pedro Passos Corsini - RM 573493 - Turma 1ESPU.
+    </p>
+  </div>
+</footer>
+
+<dialog class="ficha" id="ficha" aria-labelledby="ficha-nome">
+  <form method="dialog"><button class="ficha__fechar" aria-label="Fechar ficha">Fechar ×</button></form>
+  <div class="ficha__foto"><img id="ficha-img" alt=""></div>
+  <div class="ficha__corpo">
+    <p class="etiqueta-mono" id="ficha-serie"></p>
+    <h3 id="ficha-nome"></h3>
+    <p id="ficha-detalhe" class="ficha__detalhe"></p>
+    <dl>
+      <div><dt>Escala</dt><dd>1:64</dd></div>
+      <div><dt>Referência</dt><dd id="ficha-ref"></dd></div>
+    </dl>
+    <p class="nota-mao" id="ficha-nota"></p>
+  </div>
+</dialog>
+
+<script src="js/main.js"></script>
+</body>
+</html>
